@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "biver",
+  "description": "Landing page builder untuk UMKM Indonesia. Bikin, edit, dan terbitkan halaman dari asisten AI.",
+  "owner": {
+    "name": "Biver",
+    "email": "dev@biver.id"
+  },
+  "plugins": [
+    {
+      "name": "biver",
+      "description": "Build and manage Biver landing pages from Claude Code. You need a Biver account. You sign in with your browser.",
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://biver.id/docs/claude-connector"
+    }
+  ]
+}

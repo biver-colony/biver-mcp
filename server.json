@@ -1,0 +1,62 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "id.biver/biver",
+  "title": "Biver",
+  "description": "Build, edit, and publish Biver landing pages, products, orders, and leads from AI assistants.",
+  "repository": {
+    "url": "https://github.com/biver-colony/biver-mcp",
+    "source": "github"
+  },
+  "version": "3.1.1",
+  "websiteUrl": "https://biver.id/docs/mcp-server",
+  "icons": [
+    {
+      "src": "https://mcp.biver.id/icon-48.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "48x48"
+      ]
+    },
+    {
+      "src": "https://mcp.biver.id/icon-96.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "96x96"
+      ]
+    },
+    {
+      "src": "https://mcp.biver.id/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.biver.id/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://api.biver.id/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Biver API key sent as a Bearer token. Create a key at https://biver.id/api-keys.",
+          "value": "Bearer {biver_api_key}",
+          "isRequired": true,
+          "isSecret": true,
+          "variables": {
+            "biver_api_key": {
+              "description": "Biver API key (bvr_live_...). One key works on one workspace.",
+              "placeholder": "bvr_live_...",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

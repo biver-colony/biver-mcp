@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "biver",
+  "version": "3.1.0",
+  "description": "Build and manage Biver landing pages, products, orders, and leads from Claude Code. Sign in with your Biver account.",
+  "author": {
+    "name": "Biver",
+    "email": "support@biver.id",
+    "url": "https://biver.id"
+  },
+  "homepage": "https://biver.id/docs/claude-connector",
+  "license": "MIT",
+  "keywords": [
+    "landing-page",
+    "indonesia",
+    "umkm",
+    "no-code",
+    "biver",
+    "mcp"
+  ],
+  "repository": "https://github.com/biver-colony/biver-mcp"
+}

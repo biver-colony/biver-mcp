@@ -1,0 +1,12 @@
+{
+  "name": "biver",
+  "version": "3.1.1",
+  "description": "Build and manage Biver landing pages, products, orders, and leads. Sign in with your Biver account.",
+  "mcpServers": {
+    "biver": {
+      "httpUrl": "https://mcp.biver.id/mcp",
+      "timeout": 300000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

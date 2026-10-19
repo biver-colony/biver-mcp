@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "biver": {
+      "type": "http",
       "url": "https://mcp.biver.id/mcp"
     }
   }
